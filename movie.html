@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+	<title>Movie Management App</title>
+</head>
+<body>
+	<header>
+		<h1>Movie Management App</h1>
+	</header>
+	<main>
+		<section id="movies">
+			<h2>Movies</h2>
+			<ul id="movie-list" class="movie-list">
+			</ul>
+		</section>
+		<section id="add-movie">
+			<h2>Add Movie</h2>
+			<form id="add-movie-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <input type="text" id="director" placeholder="Director" required>
+                <input type="number" id="rating" placeholder="Rating" min="1" max="10" required>
+                <button type="submit">Add Movie</button>
+              </form>
+		</section>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
